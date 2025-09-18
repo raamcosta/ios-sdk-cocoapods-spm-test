@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'TeyaUnifiedEposSDK'
-    spec.version                  = '0.0.1-alpha05'
+    spec.version                  = '0.0.1-alpha06'
     spec.homepage                 = 'https://docs.teya.com'
     spec.source                   = {
         :http => "https://github.com/raamcosta/ios-sdk-cocoapods-spm-test/releases/download/#{spec.version}/TeyaUnifiedEposSDK-#{spec.version}.xcframework.zip"
