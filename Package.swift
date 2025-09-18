@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TeyaUnifiedEposSDK",
-            url: "https://github.com/raamcosta/ios-sdk-cocoapods-spm-test/releases/download/0.0.1-alpha03/TeyaUnifiedEposSDK-0.0.1-alpha03.xcframework.zip",
-            checksum: "5f86c345210ed25918c2a120f523e5d7eb0f00d24cee8d9db4dc917f1cdbe2b2"
+            url: "https://github.com/raamcosta/ios-sdk-cocoapods-spm-test/releases/download/0.0.1-alpha05/TeyaUnifiedEposSDK-0.0.1-alpha05.xcframework.zip",
+            checksum: "555dc0415b762bff62f8d252914d81e62a806ab42b8a9a1524e53f3f6e72c2e6"
         )
     ]
 )
