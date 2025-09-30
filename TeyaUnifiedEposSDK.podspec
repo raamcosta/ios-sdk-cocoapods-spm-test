@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
-    spec.name                     = 'TeyaUnifiedEposSDK'
-    spec.version                  = '0.0.1-alpha06'
-    spec.homepage                 = 'https://docs.teya.com'
-    spec.source                   = {
-        :http => "https://github.com/raamcosta/ios-sdk-cocoapods-spm-test/releases/download/#{spec.version}/TeyaUnifiedEposSDK-#{spec.version}.xcframework.zip"
+    spec.name                   = 'TeyaUnifiedEposSDK'
+    spec.version                = '0.0.2-alpha02'
+    spec.homepage               = 'https://docs.teya.com'
+    spec.source                 = {
+        :http => 'https://cdn.teya.com/static/c588ca20/TeyaUnifiedEposSDK-0.0.2-alpha02.xcframework.zip'
     }
-    spec.authors                  = 'Teya'
-    spec.license                  = {
+    spec.authors                = 'Teya'
+    spec.license                = {
         :type => 'MIT',
         :text => 'MIT License
 
@@ -31,10 +31,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'
     }
 
-    spec.summary                  = 'Teya PosLink SDK'
-    spec.platform                 = :ios, '12.0'
-    spec.vendored_frameworks      = 'TeyaUnifiedEposSDK.xcframework'
-    spec.libraries                = 'c++'
-    spec.requires_arc             = true
+    spec.summary                = 'Teya PosLink SDK'
+    spec.platform               = :ios, '12.0'
+    spec.vendored_frameworks    = 'TeyaUnifiedEposSDK.xcframework'
+    spec.libraries              = 'c++'
+    spec.requires_arc           = true
     spec.resources = ['TeyaUnifiedEposSDK.xcframework/ios-arm64/TeyaUnifiedEposSDK.framework/compose-resources']
 end
