@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -10,13 +10,13 @@ let package = Package(
         .library(
             name: "TeyaUnifiedEposSDK",
             targets: ["TeyaUnifiedEposSDK"]
-        ),
+        )
     ],
     targets: [
         .binaryTarget(
             name: "TeyaUnifiedEposSDK",
-            url: "https://github.com/raamcosta/ios-sdk-cocoapods-spm-test/releases/download/0.0.1-alpha06/TeyaUnifiedEposSDK-0.0.1-alpha06.xcframework.zip",
-            checksum: "fe89d18d5e086a925e4a8005fb4f8facfac4ec127977b41d7303d6d2d5b63370"
+            url: "https://cdn.teya.com/static/c588ca20/TeyaUnifiedEposSDK-0.0.2-alpha02.xcframework.zip",
+            checksum: "fb86926fcc2702c9458f79b418026e590e74484e7049ffe59880a4fcd160a6db"
         )
     ]
 )
